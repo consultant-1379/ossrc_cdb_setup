@@ -1,0 +1,11 @@
+<suite name="OnlyDdcDdpiSetupCDB">
+	<test name="OnlyDdcDdpiSetupCDB">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.DdcDdpiSetup" />
+			<methods>
+				<include name="verifyDdcDdpiSetup" />
+			</methods>
+		</classes>
+	</test>
+</suite>

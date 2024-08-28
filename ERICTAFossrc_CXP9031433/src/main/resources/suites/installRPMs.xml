@@ -1,0 +1,11 @@
+<suite name="InstallRpms">
+	<test name="Install RPMs">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.VNFInstallPackages" />
+			<methods>
+				<include name="installOrUpgradeVNFRPM" />
+			</methods>
+		</classes>
+	</test>
+</suite>

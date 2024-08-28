@@ -1,0 +1,11 @@
+<suite name="onlyPrepareUserCDB">
+	<test name="onlyPrepareUserCDB">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUp" />
+			<methods>
+				<include name="verifyUsersPreparation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

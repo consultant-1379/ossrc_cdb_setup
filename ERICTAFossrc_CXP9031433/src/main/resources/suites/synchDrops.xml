@@ -1,0 +1,7 @@
+<suite name="SynchDrops" >
+        <test name="SynchDrops">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.DropSynch" />
+                </classes>
+        </test>
+</suite>

@@ -1,0 +1,12 @@
+<suite name="InstallPackagesWithPostCommands">
+	<test name="Install Packages with Post Commands">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="verifyAllPackageInstallation" />
+				<include name="doPostInstallSteps" />
+			</methods>
+		</classes>
+	</test>
+</suite>

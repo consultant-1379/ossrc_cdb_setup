@@ -1,0 +1,11 @@
+<suite name="OnlyArneImportCDB">
+	<test name="OnlyArneImportCDB">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUp" />
+			<methods>
+				<include name="verifyNetworkPreparation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

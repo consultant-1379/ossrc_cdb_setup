@@ -1,0 +1,7 @@
+<suite name="nodeSetup" >
+        <test name="nodeSetup">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.NetsimSetUp" />
+                </classes>
+        </test>
+</suite>

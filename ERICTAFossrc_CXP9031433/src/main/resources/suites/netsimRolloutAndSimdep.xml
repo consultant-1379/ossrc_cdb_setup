@@ -1,0 +1,12 @@
+<suite name="netsimRolloutAndSimdep">
+	<test name="netsimRolloutAndSimdep">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentUpgradeAndSetUp" />
+			<methods>
+				<include name="executeNetsimRollOutPart1" />
+				<include name="executeSimdep" />
+			</methods>
+		</classes>
+	</test>
+</suite>

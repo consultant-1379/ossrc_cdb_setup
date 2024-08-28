@@ -1,0 +1,11 @@
+<suite name="InstallPackages">
+	<test name="Install Packages">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="verifyAllPackageInstallation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

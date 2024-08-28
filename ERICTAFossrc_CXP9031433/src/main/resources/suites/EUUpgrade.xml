@@ -1,0 +1,12 @@
+<suite name="EUUpgrade">
+	<test name="EUUpgrade">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentUpgradeAndSetUp" />
+			<methods>
+				<include name="verifyEnvironmentUpgrade" />
+				<include name="verifyMCInitialisation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

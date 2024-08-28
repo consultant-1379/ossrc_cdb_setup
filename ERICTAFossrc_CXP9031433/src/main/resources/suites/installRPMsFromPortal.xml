@@ -1,0 +1,11 @@
+<suite name="InstallRpmsFromPortal">
+	<test name="Install RPMs from Portal">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.VNFInstallPackages" />
+			<methods>
+				<include name="installOrUpgradeVNFRPMsFromDrop" />
+			</methods>
+		</classes>
+	</test>
+</suite>

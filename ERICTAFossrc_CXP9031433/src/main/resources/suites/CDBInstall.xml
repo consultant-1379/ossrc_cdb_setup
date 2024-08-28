@@ -1,0 +1,11 @@
+<suite name="CDBInstall">
+	<test name="CDBInstall">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUpScenarios" />
+			<methods>
+				<include name="verifyEnvironmentInstallation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

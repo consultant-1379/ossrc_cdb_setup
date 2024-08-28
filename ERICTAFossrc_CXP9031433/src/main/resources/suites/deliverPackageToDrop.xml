@@ -1,0 +1,11 @@
+<suite name="deliverPackageToDrop">
+	<test name="deliverPackageToDrop">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="deliverPkgToDrop" />
+			</methods>
+		</classes>
+	</test>
+</suite>

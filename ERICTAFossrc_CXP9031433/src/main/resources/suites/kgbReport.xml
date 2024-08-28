@@ -1,0 +1,7 @@
+<suite name="kgbReport" >
+        <test name="kgbReport">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.KGBReporting" />
+                </classes>
+        </test>
+</suite>

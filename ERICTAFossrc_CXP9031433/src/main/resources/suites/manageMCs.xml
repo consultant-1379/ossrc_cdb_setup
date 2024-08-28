@@ -1,0 +1,11 @@
+<suite name="manageMC">
+	<test name="manageMC">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="manageMC" />
+			</methods>
+		</classes>
+	</test>
+</suite>

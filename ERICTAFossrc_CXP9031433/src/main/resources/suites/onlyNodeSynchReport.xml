@@ -1,0 +1,11 @@
+<suite name="OnlyNodeSynchReport">
+	<test name="OnlyNodeSynchReport">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUp" />
+			<methods>
+				<include name="showNodeSynchStatus" />
+			</methods>
+		</classes>
+	</test>
+</suite>

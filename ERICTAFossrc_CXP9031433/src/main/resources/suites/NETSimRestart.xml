@@ -1,0 +1,11 @@
+<suite name="NETSimRestart">
+ <test name="NETSimRestart">
+  <classes>
+   <class
+     name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUp" />
+   <methods>
+   <include name="verifyNETSimRestart" />
+   </methods>
+  </classes>
+</test>
+</suite>

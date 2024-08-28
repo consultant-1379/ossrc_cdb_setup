@@ -1,0 +1,11 @@
+<suite name="RNCDBInstall">
+	<test name="RNCDBInstall">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUpScenarios" />
+			<methods>
+				<include name="verifyRNCDBEnvironmentInstallation" />
+			</methods>
+		</classes>
+	</test>
+</suite>

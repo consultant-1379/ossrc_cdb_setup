@@ -1,0 +1,11 @@
+<suite name="RVDEnvironmentYoulab">
+  <test name="RVDEnvironmentYoulab">
+    <classes>
+      <class
+             name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.RVDEnvironmentSetup" />
+      <methods>
+        <include name="verifyRVDEnvironmentSetupForYoulab" />
+      </methods>
+    </classes>
+  </test>
+</suite>

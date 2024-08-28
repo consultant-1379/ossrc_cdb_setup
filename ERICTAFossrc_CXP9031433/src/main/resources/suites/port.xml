@@ -1,0 +1,7 @@
+<suite name="portProvider" >
+        <test name="PortProvider">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.PortTest" />
+                </classes>
+        </test>
+</suite>

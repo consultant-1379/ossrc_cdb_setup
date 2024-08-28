@@ -1,0 +1,7 @@
+<suite name="CronReport" >
+        <test name="CronReport">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.CronReport" />
+                </classes>
+        </test>
+</suite>

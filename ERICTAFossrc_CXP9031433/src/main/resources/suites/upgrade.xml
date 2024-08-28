@@ -1,0 +1,15 @@
+<suite name="InitialUpgradeCDB">
+	<test name="InitialUpgradeCDB">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentUpgradeAndSetUp" />
+			<methods>
+				<include name="verifyEnvironmentUpgrade" />
+				<include name="verifyMCInitialisation" />
+				<include name="verifyNetworkPreparation" />
+				<include name="showNodeSynchStatus" />
+				
+			</methods>
+		</classes>
+	</test>
+</suite>

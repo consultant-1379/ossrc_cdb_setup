@@ -1,0 +1,17 @@
+<suite name="Installe2e">
+	<test name="Installe2e">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUp" />
+			<methods>
+				<include name="verifyEnvironmentInstallation" />
+				<include name="verifyNetworkPreparation" />
+				<include name="verifyUsersPreparation" />
+				<include name="verifyDisableOfPasswordPolicy" />
+				<include name="showNodeSynchStatus" />
+
+
+			</methods>
+		</classes>
+	</test>
+</suite>

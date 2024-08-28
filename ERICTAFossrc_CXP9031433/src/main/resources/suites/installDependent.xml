@@ -1,0 +1,7 @@
+<suite name="InitialInstallCDBDependent" >
+        <test name="InitialInstallCDBDependent">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentSetUpDependant" />
+                </classes>
+        </test>
+</suite>

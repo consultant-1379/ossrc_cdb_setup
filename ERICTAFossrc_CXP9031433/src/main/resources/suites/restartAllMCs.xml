@@ -1,0 +1,11 @@
+<suite name="restartAllMCs">
+	<test name="restartAllMCs">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="restartAllMCs" />
+			</methods>
+		</classes>
+	</test>
+</suite>

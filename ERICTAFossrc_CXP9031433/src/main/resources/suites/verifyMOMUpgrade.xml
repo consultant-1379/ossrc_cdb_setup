@@ -1,0 +1,11 @@
+<suite name="verifyMOMUpgrade">
+	<test name="verifyMOMUpgrade">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="verifyMOMUpgrade" />
+			</methods>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<suite name="OnlyInitialUpgradeCDB" >
+        <test name="OnlyInitialUpgradeCDB">
+                <classes>
+                        <class name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.EnvironmentUpgradeAndSetUp" />
+                        <methods>
+							<include name="verifyEnvironmentUpgrade" />
+						</methods>
+                </classes>
+        </test>
+</suite>

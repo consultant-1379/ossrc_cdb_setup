@@ -1,0 +1,11 @@
+<suite name="RVDEnvironmentEDN">
+  <test name="RVDEnvironmentEDN">
+    <classes>
+      <class
+             name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.RVDEnvironmentSetup" />
+      <methods>
+        <include name="verifyRVDEnvironmentSetupForEDN" />
+      </methods>
+    </classes>
+  </test>
+</suite>

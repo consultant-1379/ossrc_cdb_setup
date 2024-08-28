@@ -1,0 +1,11 @@
+<suite name="rebootOssmaster">
+	<test name="rebootOssmaster">
+		<classes>
+			<class
+				name="com.ericsson.ci.cloud.ossrc_cdb_setup.test.cases.InstallPackages" />
+			<methods>
+				<include name="rebootOssmaster" />
+			</methods>
+		</classes>
+	</test>
+</suite>
